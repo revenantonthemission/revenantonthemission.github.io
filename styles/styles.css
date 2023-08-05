@@ -23,7 +23,7 @@
 
 .light-mode {
   --color-primary: #FFFFFF;
-  --color-secondary: #f56692;
+  --color-secondary: #a96ef0;
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -37,7 +37,7 @@
 
 body {
   background-color: var(--color-primary);
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-size: 1.1rem;
   color: var(--color-white);
   transition: all 0.4s ease-in-out;
@@ -669,11 +669,6 @@ section {
 }
 
 /*Independent components*/
-.btn-con {
-  display: flex;
-  align-self: flex-start;
-}
-
 .main-btn {
   border-radius: 30px;
   color: inherit;
@@ -706,6 +701,7 @@ section {
 }
 .main-btn:hover {
   transition: all 0.4s ease-out;
+  color: var(--color-white);
 }
 .main-btn:hover::before {
   width: 100%;
