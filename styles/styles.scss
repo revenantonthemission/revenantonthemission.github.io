@@ -20,6 +20,7 @@
     --color-grey-6: #12181b;
     --br-sm-2: 14px;
     --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
+    --image-route: url('../images/flat-8.png');
 }
 
 .light-mode {
@@ -34,6 +35,7 @@
     --color-grey-4: #454e56;
     --color-grey-5: #f8f8f8;
     --color-grey-6: #12181b;
+    --image-route: url('../images/dayimage_shoes.png');
 }
 
 body {
@@ -200,14 +202,16 @@ section {
             background-color: var(--color-black);
             transition: all .4s ease-in-out;
             img {
+                background-color: var(--color-primary);
+                content: var(--image-route);
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
                 transition: all .4s ease-in-out;
-                filter: grayscale(100%);
-                &:hover {
+                filter: grayscale(0);
+                /*&:hover {
                     filter: grayscale(0);
-                }
+                }*/
             }
         }
     }
@@ -327,23 +331,23 @@ section {
                         transition: all .4s ease-in-out;
                         width: 60%;
                     }
-                    .html {
-                        width: 80%;
+                    .frontend {
+                        width: 30%;
                     }
-                    .css {
-                        width: 95%;
+                    .swift {
+                        width: 0%;
                     }
-                    .js {
-                        width: 75%;
+                    .kotlin {
+                        width: 0%;
                     }
-                    .react {
+                    .flutter {
                         width: 60%;
                     }
-                    .node {
-                        width: 87%;
+                    .C\/C\+\+ {
+                        width: 60%;
                     }
-                    .python {
-                        width: 70%;
+                    .java {
+                        width: 20%;
                     }
                 }
             }

@@ -82,7 +82,7 @@
 
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (min-width: 601px) and (max-width: 1300px) {
     .about-container {
         grid-template-columns: 1fr;
         .right-about {
@@ -149,7 +149,7 @@
         margin: 0 auto;
         width: 90%;
     }
-    .controls {
+    /*.controls {
         top: auto;
         bottom: 0;
         flex-direction: row;
@@ -161,7 +161,7 @@
         .control {
             margin: .6rem 2rem;
         }
-    }
+    }*/
 }
 
 @media screen and (max-width: 700px) {
