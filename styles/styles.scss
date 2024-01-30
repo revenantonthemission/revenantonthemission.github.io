@@ -363,6 +363,7 @@ section {
         font-size: 4rem;
         font-weight: 700;
         span {
+            position: inherit;
             color: var(--color-secondary);
         }
         .bg-text {
@@ -374,7 +375,7 @@ section {
             z-index: -1;
             transform: translate(-50%, -50%);
             font-weight: 800;
-            font-size: 6.3rem;
+            font-size: 6.3em;
         }
     }
 }
