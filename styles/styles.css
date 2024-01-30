@@ -130,7 +130,7 @@ section {
   color: var(--color-white) !important;
 }
 .controls .control {
-  padding: 1rem;
+  padding: 1vw;
   cursor: pointer;
   background-color: var(--color-grey-4);
   width: 55px;
@@ -717,17 +717,17 @@ section {
 
 @media screen and (max-width: 600px) {
   .about-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
   }
   .about-container .right-about {
     grid-template-columns: 1fr !important;
-    padding-top: 2.5rem;
+    padding-top: 2.5rem !important;
   }
   .about-container .left-about {
-    padding-right: 0;
+    padding-right: 0 !important;
   }
   .about-container .left-about p {
-    padding-left: 0;
+    padding-left: 0 !important;
   }
   .timeline {
     grid-template-columns: 1fr !important;
@@ -745,21 +745,21 @@ section {
     padding-bottom: 6rem;
   }
   .section {
-    padding: 2rem 2.5rem;
+    padding: 0.8rem 1.1rem !important;
   }
   .main-title h2 {
-    font-size: 1rem;
+    font-size: 3rem !important;
   }
   .main-title h2 span {
-    font-size: 1rem;
+    font-size: 3rem !important;
   }
   .main-title h2 .bg-text {
-    font-size: 3em;
+    font-size: 3em !important;
   }
 }
 @media screen and (max-width: 700px) {
   .section {
-    padding: 5rem 3rem;
+    padding: 1rem 2rem !important;
   }
   .about-container {
     grid-template-columns: 1fr;
@@ -769,10 +769,10 @@ section {
     padding-top: 2.5rem;
   }
   .about-container .left-about {
-    padding-right: 0;
+    padding-right: 0 !important;
   }
   .about-container .left-about p {
-    padding-left: 0;
+    padding-left: 0 !important;
   }
   .about-stats .progress-bars {
     grid-template-columns: 1fr;
@@ -780,7 +780,7 @@ section {
 }
 @media screen and (max-width: 970px) {
   .section {
-    padding: 6rem 6rem;
+    padding: 3rem 3rem !important;
   }
   header {
     padding: 0;
@@ -821,7 +821,7 @@ section {
     background-color: var(--color-grey-5);
   }
   .controls .control {
-    margin: 0.6rem 2rem;
+    margin: 0.6rem 1rem !important;
   }
 }
 @media screen and (max-width: 1300px) {
