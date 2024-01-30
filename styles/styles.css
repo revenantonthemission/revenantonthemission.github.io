@@ -716,6 +716,12 @@ section {
 }
 
 @media screen and (max-width: 600px) {
+  .header-content {
+    margin: 0 !important;
+  }
+  .header-content .name {
+    font-size: 1.7em !important;
+  }
   .header-content .left-header .image {
     margin: 0 !important;
     width: 90% !important;
@@ -808,7 +814,7 @@ section {
     margin: 0 0 !important;
   }
   .right-header .name {
-    font-size: 2.5rem !important;
+    font-size: 2.5rem;
   }
   .header-content .left-header .image {
     margin: 0 auto;
